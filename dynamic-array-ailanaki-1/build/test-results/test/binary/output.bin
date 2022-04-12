@@ -1,0 +1,40 @@
+
+= Iteration 1 / 100 =
+ Execution scenario (init part):
+[put(5, 2), size()]
+$Execution scenario (parallel part):
++| get(2)      | put(4, 6)  | put(2, -6)  |
++| pushBack(4) | put(0, -8) | get(2)      |
++| put(1, 1)   | size()     | pushBack(6) |
+ Execution scenario (post part):
+[pushBack(2), pushBack(1)]
+
+= Iteration 2 / 100 =
+ Execution scenario (init part):
+[put(2, 4), size()]
+$Execution scenario (parallel part):
+'| size()      | size() | get(0)      |
+'| size()      | get(2) | pushBack(4) |
+'| pushBack(0) | get(3) | pushBack(0) |
+ Execution scenario (post part):
+[get(6), put(0, -8)]
+
+= Iteration 3 / 100 =
+ Execution scenario (init part):
+[get(1), get(3)]
+$Execution scenario (parallel part):
++| put(3, 5)  | get(4)      | size()      |
++| put(2, -4) | get(2)      | pushBack(6) |
++| put(5, -8) | pushBack(2) | pushBack(6) |
+ Execution scenario (post part):
+[get(0), size()]
+
+= Iteration 4 / 100 =
+ Execution scenario (init part):
+[size(), size()]
+$Execution scenario (parallel part):
+)| put(3, -2) | pushBack(2) | size()    |
+)| put(0, -8) | size()      | put(4, 4) |
+)| put(3, 6)  | size()      | get(3)    |
+ Execution scenario (post part):
+[size(), pushBack(0)]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="dijkstra.ConcurrentStressTest" time="1.963" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="aishayakupova"/>
+    <property name="kotlin.incremental.compilation" value="false"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="idea.home.path" value="/var/folders/vm/hzdb5mwx5ybgtfp08kd804mm0000gn/T/"/>
+    <property name="user.language" value="ru"/>
+    <property name="idea.version" value="2021.3.1"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home/lib"/>
+    <property name="idea.plugins.compatible.build" value="201.6668.13"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="psi.track.invalidation" value="true"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="user.country" value="RU"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.16"/>
+    <property name="path.separator" value=":"/>
+    <property name="idea.ignore.disabled.plugins" value="true"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/aishayakupova"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="/Users/aishayakupova/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.1 test"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA 2.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/vm/hzdb5mwx5ybgtfp08kd804mm0000gn/T/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/aishayakupova/Documents/dijkstra-ailanaki"/>
+    <property name="ast.loading.filter" value="false"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="user.dir" value="/Users/aishayakupova/Documents/dijkstra-ailanaki"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="project.structure.add.tools.jar.to.new.jdk" value="false"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="ide.hide.excluded.files" value="false"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="psi.incremental.reparse.depth.limit" value="1000"/>
+    <property name="idea.io.use.nio2" value="true"/>
+  </properties>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on small graphs" time="1.002"/>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on trees" time="0.522"/>
+  <testcase classname="dijkstra.ConcurrentStressTest" name="test on very small graphs" time="0.439"/>
+</testsuite>
